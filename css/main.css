@@ -1,0 +1,31 @@
+:root {
+    --cor-fundo:rgb(109, 48, 241);
+    --cor-fundo-dark:rgb(63, 7, 205);
+    --cor-font:white;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    outline: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    display: flex;
+background: var(--cor-fundo);
+}
+
+.trabuleiro {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 100%;
+}
+
+.grid {
+    border: 2px solid red;
+    min-height: 100px;
+    min-width: 100px;
+}
