@@ -11,10 +11,10 @@
     <head>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Histórico</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Ajuda</a></li>
+                <button><li><a href="index.html">Home</a></li></button>
+            <button><li><a href="pages/historico.html">Histórico</a></li></button>
+                <button><li><a href="pages/sobremim.html">Sobre</a></li></button>
+                <button><li><a href="pages/ajuda.html">Ajuda</a></li></button>
             </ul>
         </nav>
     </head>
@@ -25,21 +25,22 @@
         </section>
 
         <section class="trabuleiro">
-            <section class="grid" id="cel1"></section>
-            <section class="grid" id="cel2"></section>
-            <section class="grid" id="cel3"></section>
-            <section class="grid" id="cel4"></section>
-            <section class="grid" id="cel5"></section>
-            <section class="grid" id="cel6"></section>
-            <section class="grid" id="cel7"></section>
-            <section class="grid" id="cel8"></section>
-            <section class="grid" id="cel9"></section>
+            <section class="grid" id="cel1" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel12" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel13" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel21" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel22" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel23" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel31" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel32" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel33" onclick="joga(this.id);"></section>
         </section>
 
-        <section class="renova">
+        <section class="botao">
             <button id="reinicia">Reiniciar</button>
         </section>
     </main>
-    
+    <footer>MADE by Marcos Dias &copy;</footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
